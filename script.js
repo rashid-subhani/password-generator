@@ -104,4 +104,22 @@ var specialCharacters = [
       var includeLowerCase = confirm("Include lowercase characters?");
       var includeUpperCase = confirm("Include uppercase characters?");
 
-    }
+
+      //Atleast One character set is selected
+if(!includeSpecial && !includeNumeric && !includeLowerCase && !includeUpperCase){
+    alert("Please at least one character set must be selected");
+    return;
+  }
+  
+  //create options
+  var passwordOptions = {
+    length : passwordLength,
+    special : includeSpecial,
+    numeric: includeNumeric,
+    lowercase : includeLowerCase,
+    uppercase : includeUpperCase
+  };
+  return passwordOptions;
+  }
+
+    
