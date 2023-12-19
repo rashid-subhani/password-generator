@@ -1,6 +1,13 @@
 # password-generator
 Effortlessly generate strong and secure passwords with advanced password generator for enhanced online security.
 
+# Links
+https://rashid-subhani.github.io/password-generator/
+https://github.com/rashid-subhani/password-generator
+
+screenshot link:
+![Alt text](password-gen.png)
+
 
 This repository contains a simple password generator implemented in JavaScript. The generator allows users to customize their passwords based on various criteria, including password length and the inclusion of special characters, numeric characters, lowercase characters, and uppercase characters.
 
